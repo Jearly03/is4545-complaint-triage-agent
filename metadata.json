@@ -1,0 +1,6 @@
+{
+  "name": "Patient Experience & Triage Intelligence Canvas",
+  "description": "Executive healthcare intelligence platform featuring 4 specialized AI agents for patient feedback analysis, experience monitoring, complaint triage, and hospital manager decision support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+}
+
+/* Classroom Projector Mode / High-Contrast overrides */
+.projector-mode {
+  --canvas-bg: #0b1120;
+  --surface-bg: #111c33;
+  --surface-border: #1e293b;
+  font-size: 105%;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
